@@ -1,4 +1,4 @@
-# analogClock
+# 100DaysDSAlgoritm
 
 100 Days Data Structures and Algorithm Challenge
 
