@@ -1,6 +1,6 @@
 const arrangeCoins = function (n) {
     let i = 1;
-    let j = 0;
+    let k = 0;
     while (n > 0) {
         n = n - i
         i++
