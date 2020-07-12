@@ -9,7 +9,7 @@ var countPrimes = function (n) { // n = 10
     for (let i = 2; i * i < n; i++) { // i = 2,3 since 3*3 = 9 < 10
         if (nums[i] === true) {
             for (let j = 2; j * i < n; j++) {
-                // 2*2 = 4, 2*3= 6, 3*3 = 9, (4*3 > 10 -- break)
+                // 2*2 = 4, 2*3= 6, 3*3 = 9, 4 *2 = 8 (4*3 > 10 -- break)
                 nums[j * i] = false // 4,6,9
 
             }
